@@ -9,5 +9,7 @@ galaxy_info:
     versions:
       - all
   categories:
+  - database
+  - database:sql
   - development
 dependencies: []
