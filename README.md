@@ -11,7 +11,7 @@ The role is as simple as give a database name and a owner username.
 ```yml
 ---
   roles:
-      - role: mysql
+      - role: EHER.mysql
         eher_mysql_db: 'eher'
         eher_mysql_user: 'blog_eher'
 ```
