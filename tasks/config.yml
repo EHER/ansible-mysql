@@ -5,9 +5,7 @@
   with_items:
     - 127.0.0.1
     - ::1
-    - $ansible_hostname
     - localhost
-  ignore_errors: yes
   tags: config
 
 - name: copy .my.cnf file with root password credentials
